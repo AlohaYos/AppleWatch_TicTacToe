@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9A2C731AC3E19300AD08D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A2C721AC3E19300AD08D3 /* main.m */; };
+		FF9A2C761AC3E19300AD08D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A2C751AC3E19300AD08D3 /* AppDelegate.m */; };
+		FF9A2C791AC3E19300AD08D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A2C781AC3E19300AD08D3 /* ViewController.m */; };
+		FF9A2C7C1AC3E19300AD08D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9A2C7A1AC3E19300AD08D3 /* Main.storyboard */; };
+		FF9A2C7E1AC3E19300AD08D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9A2C7D1AC3E19300AD08D3 /* Images.xcassets */; };
+		FF9A2C811AC3E19300AD08D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9A2C7F1AC3E19300AD08D3 /* LaunchScreen.xib */; };
+		FF9A2C8D1AC3E19300AD08D3 /* TacTicToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A2C8C1AC3E19300AD08D3 /* TacTicToeTests.m */; };
+		FF9A2CA01AC3E1B600AD08D3 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A2C9F1AC3E1B600AD08D3 /* InterfaceController.m */; };
+		FF9A2CA21AC3E1B600AD08D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9A2CA11AC3E1B600AD08D3 /* Images.xcassets */; };
+		FF9A2CA61AC3E1B600AD08D3 /* TacTicToe WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FF9A2CA51AC3E1B600AD08D3 /* TacTicToe WatchKit App.app */; };
+		FF9A2CAE1AC3E1B600AD08D3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9A2CAC1AC3E1B600AD08D3 /* Interface.storyboard */; };
+		FF9A2CB01AC3E1B600AD08D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9A2CAF1AC3E1B600AD08D3 /* Images.xcassets */; };
+		FF9A2CB31AC3E1B600AD08D3 /* TacTicToe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF9A2C9A1AC3E1B600AD08D3 /* TacTicToe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF9A2C871AC3E19300AD08D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9A2C651AC3E19300AD08D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9A2C6C1AC3E19300AD08D3;
+			remoteInfo = TacTicToe;
+		};
+		FF9A2CA71AC3E1B600AD08D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9A2C651AC3E19300AD08D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9A2CA41AC3E1B600AD08D3;
+			remoteInfo = "TacTicToe WatchKit App";
+		};
+		FF9A2CB11AC3E1B600AD08D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9A2C651AC3E19300AD08D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9A2C991AC3E1B600AD08D3;
+			remoteInfo = "TacTicToe WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF9A2CBA1AC3E1B600AD08D3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF9A2CB31AC3E1B600AD08D3 /* TacTicToe WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF9A2C6D1AC3E19300AD08D3 /* TacTicToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacTicToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9A2C711AC3E19300AD08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9A2C721AC3E19300AD08D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9A2C741AC3E19300AD08D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF9A2C751AC3E19300AD08D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF9A2C771AC3E19300AD08D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF9A2C781AC3E19300AD08D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF9A2C7B1AC3E19300AD08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9A2C7D1AC3E19300AD08D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF9A2C801AC3E19300AD08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF9A2C861AC3E19300AD08D3 /* TacTicToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacTicToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9A2C8B1AC3E19300AD08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9A2C8C1AC3E19300AD08D3 /* TacTicToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TacTicToeTests.m; sourceTree = "<group>"; };
+		FF9A2C9A1AC3E1B600AD08D3 /* TacTicToe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TacTicToe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9A2C9D1AC3E1B600AD08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9A2C9E1AC3E1B600AD08D3 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		FF9A2C9F1AC3E1B600AD08D3 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		FF9A2CA11AC3E1B600AD08D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF9A2CA51AC3E1B600AD08D3 /* TacTicToe WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TacTicToe WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9A2CAB1AC3E1B600AD08D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9A2CAD1AC3E1B600AD08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FF9A2CAF1AC3E1B600AD08D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF9A2CBB1AC3EFCF00AD08D3 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9A2C6A1AC3E19300AD08D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9A2C831AC3E19300AD08D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9A2C971AC3E1B600AD08D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9A2C641AC3E19300AD08D3 = {
+			isa = PBXGroup;
+			children = (
+				FF9A2C6F1AC3E19300AD08D3 /* TacTicToe */,
+				FF9A2C891AC3E19300AD08D3 /* TacTicToeTests */,
+				FF9A2C9B1AC3E1B600AD08D3 /* TacTicToe WatchKit Extension */,
+				FF9A2CA91AC3E1B600AD08D3 /* TacTicToe WatchKit App */,
+				FF9A2C6E1AC3E19300AD08D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9A2C6E1AC3E19300AD08D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A2C6D1AC3E19300AD08D3 /* TacTicToe.app */,
+				FF9A2C861AC3E19300AD08D3 /* TacTicToeTests.xctest */,
+				FF9A2C9A1AC3E1B600AD08D3 /* TacTicToe WatchKit Extension.appex */,
+				FF9A2CA51AC3E1B600AD08D3 /* TacTicToe WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9A2C6F1AC3E19300AD08D3 /* TacTicToe */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A2CBB1AC3EFCF00AD08D3 /* Common.h */,
+				FF9A2C741AC3E19300AD08D3 /* AppDelegate.h */,
+				FF9A2C751AC3E19300AD08D3 /* AppDelegate.m */,
+				FF9A2C771AC3E19300AD08D3 /* ViewController.h */,
+				FF9A2C781AC3E19300AD08D3 /* ViewController.m */,
+				FF9A2C7A1AC3E19300AD08D3 /* Main.storyboard */,
+				FF9A2C7D1AC3E19300AD08D3 /* Images.xcassets */,
+				FF9A2C7F1AC3E19300AD08D3 /* LaunchScreen.xib */,
+				FF9A2C701AC3E19300AD08D3 /* Supporting Files */,
+			);
+			path = TacTicToe;
+			sourceTree = "<group>";
+		};
+		FF9A2C701AC3E19300AD08D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A2C711AC3E19300AD08D3 /* Info.plist */,
+				FF9A2C721AC3E19300AD08D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9A2C891AC3E19300AD08D3 /* TacTicToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A2C8C1AC3E19300AD08D3 /* TacTicToeTests.m */,
+				FF9A2C8A1AC3E19300AD08D3 /* Supporting Files */,
+			);
+			path = TacTicToeTests;
+			sourceTree = "<group>";
+		};
+		FF9A2C8A1AC3E19300AD08D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A2C8B1AC3E19300AD08D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9A2C9B1AC3E1B600AD08D3 /* TacTicToe WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A2C9E1AC3E1B600AD08D3 /* InterfaceController.h */,
+				FF9A2C9F1AC3E1B600AD08D3 /* InterfaceController.m */,
+				FF9A2CA11AC3E1B600AD08D3 /* Images.xcassets */,
+				FF9A2C9C1AC3E1B600AD08D3 /* Supporting Files */,
+			);
+			path = "TacTicToe WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FF9A2C9C1AC3E1B600AD08D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A2C9D1AC3E1B600AD08D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9A2CA91AC3E1B600AD08D3 /* TacTicToe WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A2CAC1AC3E1B600AD08D3 /* Interface.storyboard */,
+				FF9A2CAF1AC3E1B600AD08D3 /* Images.xcassets */,
+				FF9A2CAA1AC3E1B600AD08D3 /* Supporting Files */,
+			);
+			path = "TacTicToe WatchKit App";
+			sourceTree = "<group>";
+		};
+		FF9A2CAA1AC3E1B600AD08D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9A2CAB1AC3E1B600AD08D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9A2C6C1AC3E19300AD08D3 /* TacTicToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9A2C901AC3E19300AD08D3 /* Build configuration list for PBXNativeTarget "TacTicToe" */;
+			buildPhases = (
+				FF9A2C691AC3E19300AD08D3 /* Sources */,
+				FF9A2C6A1AC3E19300AD08D3 /* Frameworks */,
+				FF9A2C6B1AC3E19300AD08D3 /* Resources */,
+				FF9A2CBA1AC3E1B600AD08D3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9A2CB21AC3E1B600AD08D3 /* PBXTargetDependency */,
+			);
+			name = TacTicToe;
+			productName = TacTicToe;
+			productReference = FF9A2C6D1AC3E19300AD08D3 /* TacTicToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9A2C851AC3E19300AD08D3 /* TacTicToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9A2C931AC3E19300AD08D3 /* Build configuration list for PBXNativeTarget "TacTicToeTests" */;
+			buildPhases = (
+				FF9A2C821AC3E19300AD08D3 /* Sources */,
+				FF9A2C831AC3E19300AD08D3 /* Frameworks */,
+				FF9A2C841AC3E19300AD08D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9A2C881AC3E19300AD08D3 /* PBXTargetDependency */,
+			);
+			name = TacTicToeTests;
+			productName = TacTicToeTests;
+			productReference = FF9A2C861AC3E19300AD08D3 /* TacTicToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF9A2C991AC3E1B600AD08D3 /* TacTicToe WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9A2CB71AC3E1B600AD08D3 /* Build configuration list for PBXNativeTarget "TacTicToe WatchKit Extension" */;
+			buildPhases = (
+				FF9A2C961AC3E1B600AD08D3 /* Sources */,
+				FF9A2C971AC3E1B600AD08D3 /* Frameworks */,
+				FF9A2C981AC3E1B600AD08D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9A2CA81AC3E1B600AD08D3 /* PBXTargetDependency */,
+			);
+			name = "TacTicToe WatchKit Extension";
+			productName = "TacTicToe WatchKit Extension";
+			productReference = FF9A2C9A1AC3E1B600AD08D3 /* TacTicToe WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FF9A2CA41AC3E1B600AD08D3 /* TacTicToe WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9A2CB41AC3E1B600AD08D3 /* Build configuration list for PBXNativeTarget "TacTicToe WatchKit App" */;
+			buildPhases = (
+				FF9A2CA31AC3E1B600AD08D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TacTicToe WatchKit App";
+			productName = "TacTicToe WatchKit App";
+			productReference = FF9A2CA51AC3E1B600AD08D3 /* TacTicToe WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9A2C651AC3E19300AD08D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Newton Japan";
+				TargetAttributes = {
+					FF9A2C6C1AC3E19300AD08D3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF9A2C851AC3E19300AD08D3 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FF9A2C6C1AC3E19300AD08D3;
+					};
+					FF9A2C991AC3E1B600AD08D3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF9A2CA41AC3E1B600AD08D3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FF9A2C681AC3E19300AD08D3 /* Build configuration list for PBXProject "TacTicToe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9A2C641AC3E19300AD08D3;
+			productRefGroup = FF9A2C6E1AC3E19300AD08D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9A2C6C1AC3E19300AD08D3 /* TacTicToe */,
+				FF9A2C851AC3E19300AD08D3 /* TacTicToeTests */,
+				FF9A2C991AC3E1B600AD08D3 /* TacTicToe WatchKit Extension */,
+				FF9A2CA41AC3E1B600AD08D3 /* TacTicToe WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9A2C6B1AC3E19300AD08D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9A2C7C1AC3E19300AD08D3 /* Main.storyboard in Resources */,
+				FF9A2C811AC3E19300AD08D3 /* LaunchScreen.xib in Resources */,
+				FF9A2C7E1AC3E19300AD08D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9A2C841AC3E19300AD08D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9A2C981AC3E1B600AD08D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9A2CA21AC3E1B600AD08D3 /* Images.xcassets in Resources */,
+				FF9A2CA61AC3E1B600AD08D3 /* TacTicToe WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9A2CA31AC3E1B600AD08D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9A2CAE1AC3E1B600AD08D3 /* Interface.storyboard in Resources */,
+				FF9A2CB01AC3E1B600AD08D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9A2C691AC3E19300AD08D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9A2C791AC3E19300AD08D3 /* ViewController.m in Sources */,
+				FF9A2C761AC3E19300AD08D3 /* AppDelegate.m in Sources */,
+				FF9A2C731AC3E19300AD08D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9A2C821AC3E19300AD08D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9A2C8D1AC3E19300AD08D3 /* TacTicToeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9A2C961AC3E1B600AD08D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9A2CA01AC3E1B600AD08D3 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF9A2C881AC3E19300AD08D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9A2C6C1AC3E19300AD08D3 /* TacTicToe */;
+			targetProxy = FF9A2C871AC3E19300AD08D3 /* PBXContainerItemProxy */;
+		};
+		FF9A2CA81AC3E1B600AD08D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9A2CA41AC3E1B600AD08D3 /* TacTicToe WatchKit App */;
+			targetProxy = FF9A2CA71AC3E1B600AD08D3 /* PBXContainerItemProxy */;
+		};
+		FF9A2CB21AC3E1B600AD08D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9A2C991AC3E1B600AD08D3 /* TacTicToe WatchKit Extension */;
+			targetProxy = FF9A2CB11AC3E1B600AD08D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF9A2C7A1AC3E19300AD08D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9A2C7B1AC3E19300AD08D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9A2C7F1AC3E19300AD08D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9A2C801AC3E19300AD08D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FF9A2CAC1AC3E1B600AD08D3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9A2CAD1AC3E1B600AD08D3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9A2C8E1AC3E19300AD08D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF9A2C8F1AC3E19300AD08D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9A2C911AC3E19300AD08D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TacTicToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF9A2C921AC3E19300AD08D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TacTicToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF9A2C941AC3E19300AD08D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TacTicToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacTicToe.app/TacTicToe";
+			};
+			name = Debug;
+		};
+		FF9A2C951AC3E19300AD08D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TacTicToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacTicToe.app/TacTicToe";
+			};
+			name = Release;
+		};
+		FF9A2CB51AC3E1B600AD08D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = TacTicToe_WatchKit_Extension;
+				INFOPLIST_FILE = "TacTicToe WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FF9A2CB61AC3E1B600AD08D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = TacTicToe_WatchKit_Extension;
+				INFOPLIST_FILE = "TacTicToe WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FF9A2CB81AC3E1B600AD08D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TacTicToe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF9A2CB91AC3E1B600AD08D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TacTicToe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9A2C681AC3E19300AD08D3 /* Build configuration list for PBXProject "TacTicToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9A2C8E1AC3E19300AD08D3 /* Debug */,
+				FF9A2C8F1AC3E19300AD08D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9A2C901AC3E19300AD08D3 /* Build configuration list for PBXNativeTarget "TacTicToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9A2C911AC3E19300AD08D3 /* Debug */,
+				FF9A2C921AC3E19300AD08D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9A2C931AC3E19300AD08D3 /* Build configuration list for PBXNativeTarget "TacTicToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9A2C941AC3E19300AD08D3 /* Debug */,
+				FF9A2C951AC3E19300AD08D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9A2CB41AC3E1B600AD08D3 /* Build configuration list for PBXNativeTarget "TacTicToe WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9A2CB51AC3E1B600AD08D3 /* Debug */,
+				FF9A2CB61AC3E1B600AD08D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9A2CB71AC3E1B600AD08D3 /* Build configuration list for PBXNativeTarget "TacTicToe WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9A2CB81AC3E1B600AD08D3 /* Debug */,
+				FF9A2CB91AC3E1B600AD08D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9A2C651AC3E19300AD08D3 /* Project object */;
+}
